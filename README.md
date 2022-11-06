@@ -1,5 +1,5 @@
 
-# Datathon Entel 2022
+# Datathon Entel 2021
 
 ### Description
 The challenge is to develop a project that automates the review of clinical documents. Specifically in verifying the manual signature and extracting the date of the signature through an OCR module
