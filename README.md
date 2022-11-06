@@ -1,28 +1,23 @@
 
 # Datathon Entel 2022
 
-Description:
+### Description
 The challenge is to develop a project that automates the review of clinical documents. Specifically in verifying the manual signature and extracting the date of the signature through an OCR module
 
 
-### Entrenamiento
+### Training
+The training images were tagged using the labelimg tool obtained from github. More detail can be seen in the /training_data folder.
 
-Se etiquetaron las imágenes de entrenamiento utilizando la herramienta labelimg obtenida de github. Más detalle se puede observar en la carpeta /training_data.
+The weights of the times with the best performance were chosen.
 
-Se eligieron los pesos de las épocas con mejor performance. 
+The implemented models were:
 
-Los modelos implementados fueron:
+YOLOv3-SDF -> It is a model derived from YOLOv3 whose function is to detect dates and signatures from the input of an image.
 
-* YOLOv3-SDF -> Es un modelo derivado de YOLOv3 cuya funcion es detectar fechas y firmas a partir del input de una imagen.
-
-* YOLOv3-DOCR -> Es un modelo derivado de YOLOv3 cuya funcion es detectar y clasificar los números dentro de las fechas recortadas detectadas por el modelo YOLOv3-SDF.
+YOLOv3-DOCR -> It is a model derived from YOLOv3 whose function is to detect and classify the numbers within the trimmed dates detected by the YOLOv3-SDF model.
 
 
-### Dependencias
-
-- Librería time
-- Librería  os
-- Librería opencv (4.5.2)
-- Librería numpy 
-- Librería pandas 
-
+### Dependencies
+- opencv library (4.5.2)
+- numpy library
+- panda bookstore
