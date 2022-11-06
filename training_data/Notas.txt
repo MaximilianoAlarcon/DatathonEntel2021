@@ -1,0 +1,7 @@
+Los imagenes fueron editadas para remarcar los objetos dentro de las imagenes y la metadata fue almacenada en archivos txt
+
+
+Los modelos a utilizar para el desarrollo de la solucion es:
+
+SDF -> Deteccion de firmas y el campo fecha
+DOCR -> Extraccion de texto en las fechas detectadas
