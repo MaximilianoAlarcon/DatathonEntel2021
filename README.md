@@ -17,7 +17,7 @@ YOLOv3-SDF -> It is a model derived from YOLOv3 whose function is to detect date
 YOLOv3-DOCR -> It is a model derived from YOLOv3 whose function is to detect and classify the numbers within the trimmed dates detected by the YOLOv3-SDF model.
 
 
-### Dependencies
+### Requirements
 - opencv library (4.5.2)
 - numpy library
 - panda bookstore
